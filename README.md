@@ -17,6 +17,22 @@
 			background: url(http://Chinonso.com/pictures/jaja-bg.jpg");
 			background-size: cover;
 			color: white;
+		}
+		article{
+			width: 500px;
+			padding: 20px;
+		}
+		@media (max-width: 500px) {
+			body {
+				background: red;}
+				h1{
+					font-size: 36px;
+				}
+				li {
+					display: block;
+					padding: 5px;
+				}
+			}
 		a{
 			color: white;
 		}
@@ -38,6 +54,24 @@
     <h1>Chinonso's Blog</h1>
     <ul>
       <li>About Me</li>
+      <li>Sports</li>
+      <li>Politics</li>
+      <a href="http:///www.google.com">Search Google</a>
+    </ul>
+  </header>
+  <article>
+	<h2>Generosity</h2>
+	<p>"For God so loved the world that He gave His only begotten son, that whosoever believe in Him should not perish but have everlasting life"
+		Being generous is not solely based on one’s economic state, but instead, includes the individual’s pure intentions to give and fill up a need. There is a Spirit that motivates someone to give and when that Spirit is upon us; then we’ll become generous givers.
+		“For God so loved the world…” Generosity is an act of love and God is love. It’s hard to give generously when you’re not in love. The world and its inhabitants got filled with sin and was at the verge of destruction; instead of destroying everybody and everything, God sent His only son to redeem man – LOVE. Who can quantify God’s giving?
+	</p>
+	<h2>Healing a Broken Heart</h2>
+	<p>"The Lord is near to those who have a broken heart, and saves such as have a contrite spirit" – Psalms 34:18
+	Heart break is the state of being in crushing grief, anguish or distress. It is often feels like your heart has disintegrated into pieces, affliction and sorrows. During the day, you try to put up a happy face, but then night comes; and you find yourself lying in bed, tears streaming down your face and the weight of the heart break is heavy in your chest. You feel completely alone.
+	</p>
+  </article>
+
+</body>
       <li>Sports</li>
       <li>Politics</li>
       <a href="http:///www.google.com">Search Google</a>
